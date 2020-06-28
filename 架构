@@ -1,0 +1,31 @@
+![](https://raw.githubusercontent.com/craterone/imgs/master/%E6%9E%B6%E6%9E%84.png)
+
+
+## 服务器
+- SFU：https://github.com/versatica/mediasoup/
+- 信令服务器：https://github.com/0-u-0/dugon-signal-server
+- 录制（不转码，Gstreamer,ffmpeg）：https://github.com/Kurento/mediasoup-demos/tree/master/mediasoup-recording
+- MCU混屏：(webrtc->mixer->rtmp) 360x240，2核9路。https://github.com/craterone/kurento-mcu/blob/master/server.js
+- MCU硬件加速：N卡，gstreamer webrtcbin+nvdecode+mixer+nvdecide。https://gist.github.com/corenel/a615b6f7eb5b5425aa49343a7b409200
+
+
+## 混流(录制)架构
+1. 模拟客户端拉流
+    - 优点：不用再实现调度方案。SFU与MCU接偶
+    - 缺点：连接时间较长（ICE交换），浪费一部分加解密资源（DTLS）
+2. SFU，RTP推流
+    - 优点：节省资源
+    - 缺点：重复调度逻辑。SFU和MCU耦合
+
+
+## 客户端
+- Web（Simulcast）:https://github.com/0-u-0/dugon-web-sdk
+- iOS(70%)：https://github.com/0-u-0/dugon-ios-sdk
+- Android(20%):https://github.com/0-u-0/dugon-android-sdk
+- Windows (Windows10 only):https://github.com/webrtc-uwp/webrtc-windows
+- MacOS: https://github.com/craterone/MacTest
+
+## Web跨平台
+
+- Cef，https://cefsharp.github.io/
+- electronjs，https://www.electronjs.org/
