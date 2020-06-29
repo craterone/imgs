@@ -1,0 +1,18 @@
+# 日志架构
+
+## 基本介绍
+
+![](https://raw.githubusercontent.com/craterone/imgs/master/log.png)
+
+
+如上图所示，分为`服务器`日志和`客户端`日志。
+
+
+### 客户端日志
+
+首先说明`客户端`日志,日志通过`SDK`统计发送`AMQP`,之后所有的分布式`AMQP`的日志都发送到`Graylog`,经`Graylog`整理和清洗数据之后，存储在`ElasticSearch`，存储好的数据就可以通过来`Grafana`显示了。
+
+
+### 服务器日志
+
+`服务器`日志通过 `netdata`统计，所有统计好的数据存储在`InflexDB`里，经由`Grafana`展示数据。
