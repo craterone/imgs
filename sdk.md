@@ -27,7 +27,7 @@ SDK主要分三个模块
 用于和信令服务器连接，进行通讯。
 
 需要注意以下几点：
-1. 消息需分2种，`notify`和`request`。`notify`用于通知，不需要`response`确认。`request`需要确认回复`response`，并且每条消息需要一一对应的`id`，并且增加`timeout`机制。
+1. 消息需分2种，通知（`notify`）和 请求（`request`）。`notify`用于通知，不需要`response`确认。`request`需要确认回复`response`，并且每条消息需要一一对应的`id`，并且增加`timeout`机制。
 2. `WebRTC`需要`https`支持，需要确保移动端`Websocket`第三方包支持`wss`。
 
 
@@ -46,18 +46,36 @@ SDK主要分三个模块
   
 ## SDK 设计
 
-因为`WebRTC`底层采用工厂模式，所以为了与之相对应，`SDK`也采用了工厂模式，需要一个主入口。
+- transport : 对应客户端`RTCPeerConnection`和媒体服务器的连接。
+- sender : 对应发送端1路`mediaTrack`。
+- receiver : 对应接收端1路`mediaTrack`。
 
-- Web SDK 接口参考：https://github.com/0-u-0/dugon-web-sdk
-- iOS SDK 接口参考：https://github.com/0-u-0/dugon-ios-sdk 
 
-以下为封装的具体模块（以下为dugon为例）：
-1. 主入口：`dugon`，通过`dugon`创建 `session`和`media`。
-2. `Session`：一个`session`对应一个房间，连接`session`需要一个`token`用于验证，`token`里同时包含其他附加信息。同时，`session`包含和服信令服务器的主要连接，并且主要通过`session`的接口**发布**和**订阅**音视频流。
-3. `mediasource`：包含上述`本地流`的所有类型的封装。
-4. `transport`：上述`Peerconnection`的封装
-5. `sender`：对应1道**发布**音频流或者视频流，用户可以用过`sender`的回调来监听流的状态。通过`session.publish`发布并创建`sender`，同时应该支持**编码**等参数配置。
-6. `receiver`：对应1道**订阅**音频流或者视频流。
+
+第一阶段：
+1. 通过 `token` 连接到信令服务器。
+2. 向信令服务器发送请求，创建 2个 `transport`，分别用于发布和订阅。
+3. `transport`创建成功，返回 `ICE` 信息(`username`,`password`,`candidate`) 和 `DTLS fingerprint` 信息。
+4. 获得信息后，并不马上连接媒体服务器。
+
+
+发布：
+1. 创建一路 `mediaTrack`，通过 `RTCPeerConnection.addTransceiver`添加到连接中。
+2. `createOffer` 并 `setLocalDescription`，然后从`offer`的`sdp`中获得本地的 `DTLS fingerprint`。
+3. 根据第一阶段获得`ICE` 信息 ， `DTLS fingerprint` 信息 和 `offer sdp` 生成 `answer`。（\*）
+4. 通过生成的`answer`调用`setRemoteDescription`，并把第2步中的本地`DTLS fingerprint`发回给信令服务器（仅调用1次）。
+5. 从`offer sdp`中获取当前`mediatrack`的信息，本地存为`sender`（sender中包括发送编码，ssrc等信息），发送给信令服务器。(\*)
+
+订阅
+1. 收到其他端的**发布**的**通知**，`SDK`回调接口信息，确认是否订阅。
+2. 通过调用信令服务器确认订阅，确认订阅后返回`receiver`信息（receiver包括接收的编码，ssrc等信息）。(\*)
+3. 根据第一阶段获得`ICE` 信息 ， `DTLS fingerprint` 信息 和 `receiver` 信息  生成 `answer`。（\*）
+4. 设置 `answer` 和 生成 `offer`。
+
+
+
+
+
 
 
 **Token机制**：连接信令服务器应需要验证方式，而且需要支持附带参数。需要一个`token`签发服务器，客户端通过签发服务器获得`token`再去信令服务器验证。信令服务器和签发服务器同时持有`secret`，通过`secret`进行加密和解密，推荐 `tokenlib`。
