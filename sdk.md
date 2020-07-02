@@ -32,6 +32,9 @@ SDK主要分三个模块
 
 `mediasoup` 推荐使用第1种方式。
   
+  
+  ![](https://raw.githubusercontent.com/craterone/imgs/master/sdk%26server.png)
+  
 ## SDK 功能点
 
 ### 本地流
