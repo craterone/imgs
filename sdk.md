@@ -51,32 +51,34 @@ SDK主要分三个模块
 - receiver : 对应接收端1路`mediaTrack`。
 
 
-
-第一阶段：
+**第一阶段**：
 1. 通过 `token` 连接到信令服务器。
 2. 向信令服务器发送请求，创建 2个 `transport`，分别用于发布和订阅。
 3. `transport`创建成功，返回 `ICE` 信息(`username`,`password`,`candidate`) 和 `DTLS fingerprint` 信息。
 4. 获得信息后，并不马上连接媒体服务器。
 
 
-发布：
+**发布**：
 1. 创建一路 `mediaTrack`，通过 `RTCPeerConnection.addTransceiver`添加到连接中。
 2. `createOffer` 并 `setLocalDescription`，然后从`offer`的`sdp`中获得本地的 `DTLS fingerprint`。
 3. 根据第一阶段获得`ICE` 信息 ， `DTLS fingerprint` 信息 和 `offer sdp` 生成 `answer`。（\*）
 4. 通过生成的`answer`调用`setRemoteDescription`，并把第2步中的本地`DTLS fingerprint`发回给信令服务器（仅调用1次）。
 5. 从`offer sdp`中获取当前`mediatrack`的信息，本地存为`sender`（sender中包括发送编码，ssrc等信息），发送给信令服务器。(\*)
 
-订阅
+**订阅**：
 1. 收到其他端的**发布**的**通知**，`SDK`回调接口信息，确认是否订阅。
 2. 通过调用信令服务器确认订阅，确认订阅后返回`receiver`信息（receiver包括接收的编码，ssrc等信息）。(\*)
 3. 根据第一阶段获得`ICE` 信息 ， `DTLS fingerprint` 信息 和 `receiver` 信息  生成 `answer`。（\*）
 4. 设置 `answer` 和 生成 `offer`。
 
 
+`transport` 同时需要实现 `异步队列`，多个`发布`或者`订阅`操作，需要`异步队列`保持运行顺序。
 
 
+- mediasoup `异步队列`： https://github.com/versatica/awaitqueue
+- mediasoup  `C++客户端连接分装` ： https://mediasoup.org/documentation/v3/libmediasoupclient/design/  ， 问题：1. 只有底层接口，2. 没有多线程处理
 
-
+----
 
 **Token机制**：连接信令服务器应需要验证方式，而且需要支持附带参数。需要一个`token`签发服务器，客户端通过签发服务器获得`token`再去信令服务器验证。信令服务器和签发服务器同时持有`secret`，通过`secret`进行加密和解密，推荐 `tokenlib`。
 
