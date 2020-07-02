@@ -18,6 +18,10 @@ SDK主要分三个模块
 - Android支持类型:1,2,3
 - iOS支持类型:1
 
+
+`macOS` 和 `Windows` 屏幕分享
+
+
 按照最新`WebRTC` 支持的 `Unified Plan`，目前使用`mediatrack`进行传输。`mediasoup`也只支持`Unified Plan`。
 
 **P.S.** 在`Android`和`iOS`需要通过`RTCPeerConnectionFactory` 来创建`mediatrack`。
