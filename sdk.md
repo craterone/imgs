@@ -35,6 +35,9 @@ SDK主要分三个模块
   
   ![](https://raw.githubusercontent.com/craterone/imgs/master/sdk%26server.png)
   
+  
+
+  
 ## SDK 功能点
 
 ### 本地流
@@ -60,6 +63,13 @@ SDK主要分三个模块
 - sdp解析和生成
 - 提取`mediatrack`对应的`sdp`信息，并维护对应的`transceiver`
 ...
+
+
+### SDP 处理
+
+1. 使用 `mediasoup libmediasoupclient`处理
+2. 参考 `libmediasoupclient`，自己处理`sdp`并维护`track`状态
+3. 媒体服务器实现`sdp`网关，处理`sdp`并维护`track`状态。
 
   
 ## SDK 设计
