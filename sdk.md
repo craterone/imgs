@@ -6,25 +6,11 @@ SDK主要分三个模块
 - RTCPeerConnection（pub/sub）
 
 ### 本地流
-用于获得本地摄像头，麦克风等设备，通过`RTCPeerConnection`发布到服务器。本地流包括以下类型：
-
-1. 音视频（audio，video）
-2. 屏幕分享（screensharing）
-3. 音视频文件（file）
-4. 画布（canvas）
-
-各个端支持类型
-- ~~Web支持类型:1,2,3,4~~
-- Android支持类型:1,2,3
-- iOS支持类型:1
-
+用于获得本地摄像头，麦克风等设备，通过`RTCPeerConnection`发布到服务器。
 
 **\*** `macOS` ,`Windows`, `iOS` 屏幕分享可能**需要自己实现**
 
-
 按照最新`WebRTC` 支持的 `Unified Plan`，目前使用`mediatrack`进行传输。`mediasoup`也只支持`Unified Plan`。
-
-**P.S.** 在`Android`, `iOS`需要通过`RTCPeerConnectionFactory` 来创建`mediatrack`。
 
 
 ### WebSocket 
