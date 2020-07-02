@@ -3,10 +3,10 @@
 SDK主要分三个模块
 - 本地流(MediaStream or MediaTrack)
 - WebSocket（信令）
-- PeerConnection（pub/sub）
+- RTCPeerConnection（pub/sub）
 
 ### 本地流
-用于获得本地摄像头，麦克风等设备，通过`Peerconnection`发布到服务器。本地流包括以下类型：
+用于获得本地摄像头，麦克风等设备，通过`RTCPeerConnection`发布到服务器。本地流包括以下类型：
 
 1. 音视频（audio，video）
 2. 屏幕分享（screensharing）
@@ -31,14 +31,14 @@ SDK主要分三个模块
 2. `WebRTC`需要`https`支持，需要确保移动端`Websocket`第三方包支持`wss`。
 
 
-### Peerconnection
+### RTCPeerConnection
 流媒体传输通道，用于**发布**和**订阅**音视频。
 
-`Peerconnection` 两种使用方式。
-1. 连接服务器只建立 2道 `Peerconnection`，1道用于发布，1道用于订阅。
+`RTCPeerConnection` 两种使用方式。
+1. 连接服务器只建立 2道 `RTCPeerConnection`，1道用于发布，1道用于订阅。
     - **优点**：节省端口和连接时间；利于`WebRTC transportcc`算法控制带宽。
     - **缺点**：单房间人数过多，会造成下行服务器带宽过载。
-2. 每道流都建立1道`Peerconnection`。
+2. 每道流都建立1道`RTCPeerConnection`。
     - **优点**：每到连接可以可以选择单独的服务器，不会造成下行服务器过载。
     - **缺点**：多通道会抢流量，造成某些连接出现“饥饿现象”，即有些带宽分多了，有的连接一点儿带宽也都分不到。
 
