@@ -8,8 +8,6 @@ SDK主要分三个模块
 ### 本地流
 用于获得本地摄像头，麦克风等设备，通过`RTCPeerConnection`发布到服务器。
 
-**\*** `macOS` ,`Windows`, `iOS` 屏幕分享可能**需要自己实现**
-
 按照最新`WebRTC` 支持的 `Unified Plan`，目前使用`mediatrack`进行传输。`mediasoup`也只支持`Unified Plan`。
 
 
@@ -33,6 +31,33 @@ SDK主要分三个模块
     - **缺点**：多通道会抢流量，造成某些连接出现“饥饿现象”，即有些带宽分多了，有的连接一点儿带宽也都分不到。
 
 `mediasoup` 推荐使用第1种方式。
+  
+## SDK 功能点
+
+### 本地流
+
+- 本地视频预处理，包括美颜，磨皮，特效等
+- 本地音频预处理，包括混音，变声等
+- 本地视频配置，包括分辨率，fps等
+- 本地音频配置，包括声道，是否开启回音消除等
+- 屏幕分享，**\*** `macOS` ,`Windows`, `iOS` 屏幕分享可能**需要自己实现**
+
+### Websocket
+
+- token验证
+- wss（https）支持
+- 请求和通知消息机制的实现
+- 断线重连
+
+### RTCPeerConnection
+
+- 基于`Unified Plan`实现多流
+- 发布流，并且可配置编码，simulcast和最大码率等
+- 订阅流，需要支持simulcast切换（自动或手动）
+- sdp解析和生成
+- 提取`mediatrack`对应的`sdp`信息，并维护对应的`transceiver`
+...
+
   
 ## SDK 设计
 
