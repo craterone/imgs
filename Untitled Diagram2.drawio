@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T11:46:08.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mMJDXmQeBn0KLwBYEk3m" version="16.1.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-06T11:46:34.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="HdsSJV02JXZnAcWQPj7Q" version="16.1.0" type="github" pages="12">
   <diagram id="e0KhCoqcBP7DtmOTXd3O" name="Page-1">
     <mxGraphModel dx="842" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -595,7 +595,15 @@
         <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-6" value="录制服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
           <mxGeometry x="320" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-9" value="录制信令" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
+        <mxCell id="ZF3yukxQchrfSgGvHoVA-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MSp9sVujHLTv2wZyktp8-1" source="-YZ4JHH_FZ0tPQ8-Kcu8-9" target="fhEPKNGFjoPvb3D5xzUb-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF3yukxQchrfSgGvHoVA-1" value="上传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZF3yukxQchrfSgGvHoVA-0">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-9" value="混流服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
           <mxGeometry x="520" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fhEPKNGFjoPvb3D5xzUb-0" value="文件服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
