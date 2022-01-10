@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T07:37:05.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3YSOZ07rsfnshktdKGcA" version="16.2.4" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-01-10T07:37:45.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9Y0nKHi0Yne2c0ZM9aan" version="16.2.4" type="github" pages="13">
   <diagram id="e0KhCoqcBP7DtmOTXd3O" name="Page-1">
     <mxGraphModel dx="891" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -659,14 +659,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RY6q5Y133Flk2d-pJ0O7" name="Page-12">
-    <mxGraphModel dx="891" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="891" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MSp9sVujHLTv2wZyktp8-0" />
         <mxCell id="MSp9sVujHLTv2wZyktp8-1" parent="MSp9sVujHLTv2wZyktp8-0" />
-        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="MSp9sVujHLTv2wZyktp8-1" source="-YZ4JHH_FZ0tPQ8-Kcu8-2" target="-YZ4JHH_FZ0tPQ8-Kcu8-6" edge="1">
+        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="MSp9sVujHLTv2wZyktp8-1" source="-YZ4JHH_FZ0tPQ8-Kcu8-2" target="-YZ4JHH_FZ0tPQ8-Kcu8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="MSp9sVujHLTv2wZyktp8-1" source="-YZ4JHH_FZ0tPQ8-Kcu8-2" target="-YZ4JHH_FZ0tPQ8-Kcu8-9" edge="1">
+        <mxCell id="-YZ4JHH_FZ0tPQ8-Kcu8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="MSp9sVujHLTv2wZyktp8-1" source="-YZ4JHH_FZ0tPQ8-Kcu8-2" target="-YZ4JHH_FZ0tPQ8-Kcu8-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="120" as="targetPoint" />
           </mxGeometry>
@@ -700,6 +700,18 @@
         </mxCell>
         <mxCell id="fhEPKNGFjoPvb3D5xzUb-0" value="文件服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="MSp9sVujHLTv2wZyktp8-1" vertex="1">
           <mxGeometry x="720" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hEt3Lpfxr2JbRLrXH0_8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MSp9sVujHLTv2wZyktp8-1" source="hEt3Lpfxr2JbRLrXH0_8-0" target="-YZ4JHH_FZ0tPQ8-Kcu8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEt3Lpfxr2JbRLrXH0_8-0" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
+          <mxGeometry x="120" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDlKS5MospDGVzHt2zIc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MSp9sVujHLTv2wZyktp8-1" source="qDlKS5MospDGVzHt2zIc-0" target="-YZ4JHH_FZ0tPQ8-Kcu8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDlKS5MospDGVzHt2zIc-0" value="录制业务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="MSp9sVujHLTv2wZyktp8-1">
+          <mxGeometry x="120" y="80" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
