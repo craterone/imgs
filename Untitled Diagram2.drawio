@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T02:51:21.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6V0pWItNM8h60-ps5imN" version="16.6.1" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-02-22T02:52:15.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="EiH0Jv4SDd5kMfGGbhOt" version="16.6.1" type="github" pages="18">
   <diagram id="e0KhCoqcBP7DtmOTXd3O" name="Page-1">
     <mxGraphModel dx="884" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1160,6 +1160,12 @@
         </mxCell>
         <mxCell id="A3rWSmvbEFGPgF3-4OhP-15" value="picture" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="A3rWSmvbEFGPgF3-4OhP-1">
           <mxGeometry x="400" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A3rWSmvbEFGPgF3-4OhP-16" value="&lt;b&gt;Video&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A3rWSmvbEFGPgF3-4OhP-1">
+          <mxGeometry x="-60" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A3rWSmvbEFGPgF3-4OhP-17" value="&lt;b&gt;Audio&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A3rWSmvbEFGPgF3-4OhP-1">
+          <mxGeometry x="-60" y="270" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
