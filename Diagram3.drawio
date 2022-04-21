@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T09:26:15.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9IDKb9Ul08SrE5koK675" version="17.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-21T09:28:48.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WvP2r3AE8k-dery9TyRR" version="17.1.1" type="github" pages="6">
   <diagram id="aIgHxNktMJGkpLHd3vlj" name="Page-1">
     <mxGraphModel dx="1612" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -865,6 +865,9 @@
         </mxCell>
         <mxCell id="3BmHNhifjXz_QjZFwIi9-3" value="sfu" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="wS2quikCfq1mJNzjf3VT-1">
           <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1m1tZ0Snrltf5NLXzC6-0" value="接收模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wS2quikCfq1mJNzjf3VT-1">
+          <mxGeometry x="455" y="320" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
