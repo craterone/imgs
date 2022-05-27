@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T06:55:10.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="cfqSfw_HoP7upJPKi3yk" version="18.1.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-27T06:55:24.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="7JhxRgaSOGhZfk3-hIEB" version="18.1.2" type="github" pages="6">
   <diagram id="aIgHxNktMJGkpLHd3vlj" name="Page-1">
     <mxGraphModel dx="1631" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -949,7 +949,7 @@
         <mxCell id="R2zd1qXp-D7YMaitr_Mp-0" value="&lt;span style=&quot;&quot;&gt;文档管理系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="R2zd1qXp-D7YMaitr_Mp-4">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8fKVVdFcsMbi8Rtvqasz-14" value="Office Online" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="R2zd1qXp-D7YMaitr_Mp-4" vertex="1">
+        <mxCell id="8fKVVdFcsMbi8Rtvqasz-14" value="Office Online&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="R2zd1qXp-D7YMaitr_Mp-4" vertex="1">
           <mxGeometry x="60" y="30" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R2zd1qXp-D7YMaitr_Mp-6" value="&lt;b&gt;Client&lt;/b&gt;&lt;br&gt;观众端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wS2quikCfq1mJNzjf3VT-1">
