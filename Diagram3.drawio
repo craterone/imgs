@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:11:45.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="aA3oVCCNgXLO1XE2kE_Y" version="18.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-30T10:04:22.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="0NgDBI0403yaWSd57ZN7" version="18.1.3" type="github" pages="8">
   <diagram id="aIgHxNktMJGkpLHd3vlj" name="Page-1">
     <mxGraphModel dx="1639" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -998,13 +998,57 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9Ickt1nfFs1gFwd-vAT1-8" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-340" y="60" width="120" height="120" as="geometry" />
+          <mxGeometry x="-340" y="70" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9Ickt1nfFs1gFwd-vAT1-9" value="&lt;span style=&quot;&quot;&gt;文档管理系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="9Ickt1nfFs1gFwd-vAT1-8">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9Ickt1nfFs1gFwd-vAT1-10" value="Office Online&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9Ickt1nfFs1gFwd-vAT1-8">
           <mxGeometry x="60" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xAIqWvhzl4A9-Kgb1f9U" name="Page-8">
+    <mxGraphModel dx="667" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-1" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="40" as="sourcePoint" />
+            <mxPoint x="120" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-2" value="主讲端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="10" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-3" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="40" as="sourcePoint" />
+            <mxPoint x="240" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-4" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="40" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-6" value="文档管理系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="10" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-7" value="Office Online Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-8" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="40" as="sourcePoint" />
+            <mxPoint x="480" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEXhxnNpykMjJl4FCVxO-9" value="观众端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="10" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
