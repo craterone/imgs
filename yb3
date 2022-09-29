@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T02:30:19.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bAxLfKypbdxLZFE4JWB1" version="20.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-29T02:40:38.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EglWSCF_eZfx3uzkJVs5" version="20.3.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="741" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,7 +277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eDQhbmNjezq3RNrpPrYP" name="zoom,wemeet">
-    <mxGraphModel dx="897" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,7 +294,7 @@
           <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrk8W4bIQqb0894TVbiO-7" value="绑定扩展应用&lt;br&gt;(OAuth)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrk8W4bIQqb0894TVbiO-10" value="会前" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="10" width="60" height="30" as="geometry" />
@@ -340,6 +340,39 @@
         <mxCell id="rrk8W4bIQqb0894TVbiO-19" value="腾讯会议服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="GI3mN741h981yeGn6icG-5" target="GI3mN741h981yeGn6icG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-2" value="交互" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="GI3mN741h981yeGn6icG-1">
+          <mxGeometry x="0.025" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GI3mN741h981yeGn6icG-5" target="GI3mN741h981yeGn6icG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-4" value="&lt;b&gt;redirect&lt;/b&gt;:&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;auth_code （5分钟）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="GI3mN741h981yeGn6icG-3">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-5" value="OAuth Web&lt;br&gt;(wemeet-js-sdk)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-6" value="OAuth Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="GI3mN741h981yeGn6icG-7" target="rrk8W4bIQqb0894TVbiO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-7" value="OAuth Callback Server&lt;br&gt;（&lt;font color=&quot;#ff0000&quot;&gt;access_token&lt;/font&gt;）6小时，可刷新" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="200" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GI3mN741h981yeGn6icG-11" value="验证" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -348,6 +381,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="BFg7RLRSYgqdwQ4ANWro-1" target="BFg7RLRSYgqdwQ4ANWro-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-4" value="交互" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="BFg7RLRSYgqdwQ4ANWro-3">
+          <mxGeometry x="0.025" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;" edge="1" parent="1" source="BFg7RLRSYgqdwQ4ANWro-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-6" value="&lt;b&gt;redirect&lt;/b&gt;:&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;auth_code&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="BFg7RLRSYgqdwQ4ANWro-5">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-1" value="OAuth Web&lt;br&gt;(wemeet-js-sdk)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-2" value="OAuth Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFg7RLRSYgqdwQ4ANWro-7" value="OAuth Callback Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
