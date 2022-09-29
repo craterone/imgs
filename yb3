@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T02:40:38.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EglWSCF_eZfx3uzkJVs5" version="20.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-29T02:40:45.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="C1WdZn7O3qfj3ZxXQNwC" version="20.3.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="741" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,10 +359,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GI3mN741h981yeGn6icG-5" value="OAuth Web&lt;br&gt;(wemeet-js-sdk)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="-320" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GI3mN741h981yeGn6icG-6" value="OAuth Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="-120" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GI3mN741h981yeGn6icG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="GI3mN741h981yeGn6icG-7" target="rrk8W4bIQqb0894TVbiO-7">
           <mxGeometry relative="1" as="geometry" />
