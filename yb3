@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T02:43:16.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="D7F6GoWNTTKy6K9MmY_b" version="20.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-29T02:46:03.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OG7BQEjkz1QE-WxB8qMt" version="20.3.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="741" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,7 +277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eDQhbmNjezq3RNrpPrYP" name="zoom,wemeet">
-    <mxGraphModel dx="1724" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,18 +373,8 @@
         <mxCell id="GI3mN741h981yeGn6icG-11" value="验证" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-190" y="10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GI3mN741h981yeGn6icG-12" value="&lt;font color=&quot;#000000&quot;&gt;会议管理&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GI3mN741h981yeGn6icG-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#FF0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rrk8W4bIQqb0894TVbiO-4" target="GI3mN741h981yeGn6icG-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="130" as="sourcePoint" />
-            <mxPoint x="90" y="50" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="80" />
-              <mxPoint x="100" y="30" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="GI3mN741h981yeGn6icG-18" value="会议管理" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
