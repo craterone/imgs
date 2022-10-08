@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T09:38:07.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oSaXCXFMCtNBRIOHNXz7" version="20.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-08T03:34:14.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TvsI8jfn4rSZd3Y9IXBR" version="20.4.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
-    <mxGraphModel dx="842" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="730" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,7 +277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eDQhbmNjezq3RNrpPrYP" name="zoom,wemeet">
-    <mxGraphModel dx="1669" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1557" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,7 +311,7 @@
         <mxCell id="rrk8W4bIQqb0894TVbiO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rrk8W4bIQqb0894TVbiO-14" target="rrk8W4bIQqb0894TVbiO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Oh-um5P97HTLqacKnBO1-1" value="15s间隔" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rrk8W4bIQqb0894TVbiO-17">
+        <mxCell id="Oh-um5P97HTLqacKnBO1-1" value="15s间隔" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rrk8W4bIQqb0894TVbiO-17" vertex="1" connectable="0">
           <mxGeometry x="-0.175" relative="1" as="geometry">
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
@@ -381,11 +381,17 @@
         <mxCell id="GI3mN741h981yeGn6icG-18" value="会议管理" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="150" y="60" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="lkspmK9gWn4B8FONv5sv-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-400" y="280" as="sourcePoint" />
+            <mxPoint x="854" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UsCDzkHBX3QgRMTBuK2-" name="wemeet oauth">
-    <mxGraphModel dx="842" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="730" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
