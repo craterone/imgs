@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T03:36:04.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="z08koIGurz2ni7rB7QKJ" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-09T03:41:11.588Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JrgIjClqv8YKA58ljWD-" version="20.4.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="793" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,7 +413,7 @@
         <mxCell id="lkspmK9gWn4B8FONv5sv-8" value="通过API创建会议" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-600" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lkspmK9gWn4B8FONv5sv-9" value="通过应用市场安装应用" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="lkspmK9gWn4B8FONv5sv-9" value="会中安装应用" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-600" y="360" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
