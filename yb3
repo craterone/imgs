@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T03:16:07.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hqb8kKxTXwI7RB9o9AXw" version="20.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-11T03:16:42.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FhYCG5LvFbSgSjSDHSjA" version="20.4.0" type="github" pages="5">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="802" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
         <mxCell id="TLDqZigBBSDBWjVzBI32-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-10" target="TLDqZigBBSDBWjVzBI32-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-10" value="前端&lt;br&gt;选择会议，创建组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-10" value="&lt;b&gt;前端&lt;/b&gt;&lt;br&gt;选择会议，创建组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-11" target="TLDqZigBBSDBWjVzBI32-20">
@@ -500,10 +500,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-15" value="信令&lt;br&gt;注册组件对应meetingId,创建组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-15" value="&lt;b&gt;信令&lt;/b&gt;&lt;br&gt;注册组件对应meetingId,创建组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-16" value="底层&lt;br&gt;创建bot组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-16" value="&lt;b&gt;底层&lt;br&gt;&lt;/b&gt;创建bot组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-20" target="TLDqZigBBSDBWjVzBI32-9">
