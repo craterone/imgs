@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T02:50:28.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yTG8qhAeYmPymgBY_DnC" version="20.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-11T03:09:18.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="QyKxbOY9cWuI1VvP5non" version="20.4.0" type="github" pages="5">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="802" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,18 +420,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04yKyaDABZsNhsUTcOaR" name="Page-5">
-    <mxGraphModel dx="753" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TLDqZigBBSDBWjVzBI32-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-1" target="TLDqZigBBSDBWjVzBI32-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-1" target="TLDqZigBBSDBWjVzBI32-4">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Imt-C3M20Nl5BKu9muaA-1" target="TLDqZigBBSDBWjVzBI32-4">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-1" value="创建会议&lt;br&gt;(meetingId)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-2" target="TLDqZigBBSDBWjVzBI32-11">
           <mxGeometry relative="1" as="geometry" />
@@ -444,12 +441,12 @@
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="280" as="sourcePoint" />
+            <mxPoint x="-40" y="280" as="sourcePoint" />
             <mxPoint x="680" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-8" value="后台" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="50" y="330" width="180" height="160" as="geometry">
+          <mxGeometry x="-30" y="330" width="180" height="160" as="geometry">
             <mxRectangle x="50" y="330" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -535,6 +532,15 @@
           <mxGeometry x="-0.2833" y="1" relative="1" as="geometry">
             <mxPoint y="9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Imt-C3M20Nl5BKu9muaA-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TLDqZigBBSDBWjVzBI32-1" value="创建会议&lt;br&gt;(meetingId)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Imt-C3M20Nl5BKu9muaA-2">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Imt-C3M20Nl5BKu9muaA-1" value="绑定应用（OAuth）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Imt-C3M20Nl5BKu9muaA-2">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
