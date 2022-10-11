@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T03:43:51.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HJsMTFw9LwHt49mc6rjb" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-11T02:18:07.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XY9DO4pzfH9QQWp3WBfo" version="20.4.0" type="github" pages="4">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
-    <mxGraphModel dx="793" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="802" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,7 +277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eDQhbmNjezq3RNrpPrYP" name="zoom,wemeet">
-    <mxGraphModel dx="1620" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2061" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,10 +396,10 @@
         <mxCell id="lkspmK9gWn4B8FONv5sv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lkspmK9gWn4B8FONv5sv-3" target="lkspmK9gWn4B8FONv5sv-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lkspmK9gWn4B8FONv5sv-3" value="应用授权" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lkspmK9gWn4B8FONv5sv-3" value="应用授权&lt;br&gt;(OAuth)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dhgOrV3oHzxAYlCva-Df-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lkspmK9gWn4B8FONv5sv-5" target="rrk8W4bIQqb0894TVbiO-16">
+        <mxCell id="dhgOrV3oHzxAYlCva-Df-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lkspmK9gWn4B8FONv5sv-5" target="rrk8W4bIQqb0894TVbiO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="570" />
@@ -407,7 +407,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lkspmK9gWn4B8FONv5sv-5" value="邀请bot" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lkspmK9gWn4B8FONv5sv-5" value="应用内嵌Web邀请bot&lt;br&gt;(wemeet-js-sdk)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lkspmK9gWn4B8FONv5sv-8" value="通过API创建会议" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=17;" parent="1" vertex="1">
@@ -420,7 +420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UsCDzkHBX3QgRMTBuK2-" name="wemeet oauth">
-    <mxGraphModel dx="730" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="802" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
