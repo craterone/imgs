@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T03:16:42.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FhYCG5LvFbSgSjSDHSjA" version="20.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-11T03:18:27.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1oPJ-bhw9kcjvJDP5HBa" version="20.4.0" type="github" pages="5">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="802" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -459,6 +459,11 @@
         <mxCell id="TLDqZigBBSDBWjVzBI32-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TLDqZigBBSDBWjVzBI32-9" target="TLDqZigBBSDBWjVzBI32-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Imt-C3M20Nl5BKu9muaA-8" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;event&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="TLDqZigBBSDBWjVzBI32-14">
+          <mxGeometry x="-0.4545" y="3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-9" value="WebHook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
         </mxCell>
@@ -495,9 +500,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-26" value="meetingId&lt;br&gt;(token)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TLDqZigBBSDBWjVzBI32-21">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-26" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;bot.inivited&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;(meetingId,&lt;br&gt;token)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TLDqZigBBSDBWjVzBI32-21">
           <mxGeometry x="-0.375" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="58" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TLDqZigBBSDBWjVzBI32-15" value="&lt;b&gt;信令&lt;/b&gt;&lt;br&gt;注册组件对应meetingId,创建组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -513,7 +518,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLDqZigBBSDBWjVzBI32-23" value="bot.inivited&lt;br&gt;(token)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="TLDqZigBBSDBWjVzBI32-22">
+        <mxCell id="TLDqZigBBSDBWjVzBI32-23" value="event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="TLDqZigBBSDBWjVzBI32-22">
           <mxGeometry x="-0.2936" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
