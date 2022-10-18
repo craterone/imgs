@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T06:22:47.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5OrgD_9pAkU4NbLtmBAU" version="20.4.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-18T06:34:07.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Vt3KYtG8qVi-U6N6fouG" version="20.4.0" type="github" pages="9">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="864" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -853,7 +853,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wXIIpVrBPMzhOR5WVkHV" name="Page-8">
+  <diagram id="wXIIpVrBPMzhOR5WVkHV" name="腾讯-共享内存">
     <mxGraphModel dx="864" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -874,7 +874,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nOIiXAFNWwXGtdl3GHOP-2" value="engine-addon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="80" height="40" as="geometry" />
+          <mxGeometry x="340" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jPtQd-AmNGifsc_qZNgJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="jPtQd-AmNGifsc_qZNgJ-2" target="jPtQd-AmNGifsc_qZNgJ-9">
           <mxGeometry relative="1" as="geometry" />
@@ -899,13 +899,70 @@
           <mxGeometry x="80" y="320" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jPtQd-AmNGifsc_qZNgJ-6" value="engine-sdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="330" width="80" height="40" as="geometry" />
+          <mxGeometry x="340" y="330" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jPtQd-AmNGifsc_qZNgJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="jPtQd-AmNGifsc_qZNgJ-9" target="jPtQd-AmNGifsc_qZNgJ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jPtQd-AmNGifsc_qZNgJ-9" value="共享内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JBdce3KwJ_WbPSF-qDLQ" name="腾讯-socket">
+    <mxGraphModel dx="864" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PBoxD974eUb6IsTuk8f--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PBoxD974eUb6IsTuk8f--4" target="PBoxD974eUb6IsTuk8f--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PBoxD974eUb6IsTuk8f--4" target="PBoxD974eUb6IsTuk8f--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PBoxD974eUb6IsTuk8f--4" target="PBoxD974eUb6IsTuk8f--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--4" value="engine-server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PBoxD974eUb6IsTuk8f--6" target="PBoxD974eUb6IsTuk8f--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--6" value="engine-addon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--16" value="unix socket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="PBoxD974eUb6IsTuk8f--13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--9" value="腾讯会议1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D5spyDRR3ONSZbf4LXc8-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="targetPoint" />
+            <mxPoint x="210" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--18" value="unix socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PBoxD974eUb6IsTuk8f--17">
+          <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--12" value="腾讯会议2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PBoxD974eUb6IsTuk8f--13" value="engine-sdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D5spyDRR3ONSZbf4LXc8-1" value="encode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D5spyDRR3ONSZbf4LXc8-3" value="encode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
