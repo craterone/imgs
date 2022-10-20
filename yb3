@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T02:56:45.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PhTmm1GK0gC9vxUk7ZVE" version="20.4.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-20T02:59:20.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qB2QZmkqnJXvjP81clEZ" version="20.4.1" type="github" pages="11">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="908" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1051,6 +1051,22 @@
         <mxCell id="hERoLuXsNAz2zDBxEppg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="480" height="320" as="geometry" />
         </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-6" target="hERoLuXsNAz2zDBxEppg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-18" value="API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hERoLuXsNAz2zDBxEppg-14">
+          <mxGeometry x="-0.5953" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-6" target="hERoLuXsNAz2zDBxEppg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-17" value="Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hERoLuXsNAz2zDBxEppg-16">
+          <mxGeometry x="-0.4456" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hERoLuXsNAz2zDBxEppg-6" value="会议1" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="120" height="120" as="geometry" />
         </mxCell>
@@ -1068,6 +1084,9 @@
         </mxCell>
         <mxCell id="hERoLuXsNAz2zDBxEppg-10" value="进程通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="70" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-13" value="接口封装" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
