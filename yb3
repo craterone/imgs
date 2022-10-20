@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T09:55:22.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JFXsRhqcKMpUhWW-DVqJ" version="20.4.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-10-20T09:56:26.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HzMhFHnPKTTl-FX7bJX0" version="20.4.1" type="github" pages="12">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="908" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1347,16 +1347,16 @@
           <mxGeometry x="320" y="910" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-41" value="腾讯会议客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="1259" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-42" value="应用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1030" width="40" height="60" as="geometry" />
+          <mxGeometry x="200" y="1259" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="4rmCoJMfR3n9GI_J0fkd-46" target="4rmCoJMfR3n9GI_J0fkd-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-46" value="信令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1379" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="4rmCoJMfR3n9GI_J0fkd-49" target="4rmCoJMfR3n9GI_J0fkd-46">
           <mxGeometry relative="1" as="geometry" />
@@ -1367,7 +1367,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-49" value="导播台前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1259" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="4rmCoJMfR3n9GI_J0fkd-52" target="4rmCoJMfR3n9GI_J0fkd-46">
           <mxGeometry relative="1" as="geometry" />
@@ -1378,24 +1378,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-52" value="WebHook" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="1379" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-53" value="腾讯会议接入底层&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1499" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4rmCoJMfR3n9GI_J0fkd-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="970" as="sourcePoint" />
-            <mxPoint x="400" y="1120" as="targetPoint" />
+            <mxPoint x="140" y="1199" as="sourcePoint" />
+            <mxPoint x="400" y="1349" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4rmCoJMfR3n9GI_J0fkd-55" value="&lt;b&gt;入会 2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="4rmCoJMfR3n9GI_J0fkd-54">
+        <mxCell id="4rmCoJMfR3n9GI_J0fkd-55" value="&lt;b&gt;入会 1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="4rmCoJMfR3n9GI_J0fkd-54">
           <mxGeometry x="-0.4333" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4rmCoJMfR3n9GI_J0fkd-57" value="&lt;b&gt;腾讯会议入会 4&lt;/b&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1330" width="120" height="30" as="geometry" />
+          <mxGeometry x="320" y="1559" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmCoJMfR3n9GI_J0fkd-58" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1169" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
