@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T08:43:43.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5HQV5TdhmGTXO3TFqRNM" version="20.4.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-20T08:46:22.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7CJerJWiCbFz-fz4LSd6" version="20.4.1" type="github" pages="11">
   <diagram id="KgntdVGa23xSPnPqzoZD" name="Page-1">
     <mxGraphModel dx="908" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1082,6 +1082,11 @@
         <mxCell id="hERoLuXsNAz2zDBxEppg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-10" target="hERoLuXsNAz2zDBxEppg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hERoLuXsNAz2zDBxEppg-63" value="unix socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hERoLuXsNAz2zDBxEppg-11">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hERoLuXsNAz2zDBxEppg-10" value="进程通信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="70" width="80" height="50" as="geometry" />
         </mxCell>
@@ -1147,7 +1152,7 @@
         <mxCell id="hERoLuXsNAz2zDBxEppg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-36" target="hERoLuXsNAz2zDBxEppg-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hERoLuXsNAz2zDBxEppg-36" value="接口封装" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="hERoLuXsNAz2zDBxEppg-36" value="接口封装&lt;br&gt;(json)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="70" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hERoLuXsNAz2zDBxEppg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-37" target="hERoLuXsNAz2zDBxEppg-40">
@@ -1189,7 +1194,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hERoLuXsNAz2zDBxEppg-42" value="接口封装" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="hERoLuXsNAz2zDBxEppg-42" value="接口封装&lt;br&gt;(json)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="440" y="70" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hERoLuXsNAz2zDBxEppg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="hERoLuXsNAz2zDBxEppg-46" target="hERoLuXsNAz2zDBxEppg-53">
