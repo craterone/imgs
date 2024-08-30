@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T02:55:24.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="cBAY8jijLUjWFG1YDRbZ" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="4">
   <diagram id="C7yYQ_p85xzNqxfkVTD4" name="Page-1">
     <mxGraphModel dx="1738" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,6 +277,23 @@
         </mxCell>
         <mxCell id="itEz0BnEWW8FFCX2tHHO-1" value="会控管理" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Prh97Cx4QGoDT45TOLaX" name="第 4 页">
+    <mxGraphModel dx="1166" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FDM2gDi0TS2Ep80jjkoO-2" value="PPT 97-2003" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FDM2gDi0TS2Ep80jjkoO-5" value="&lt;h1&gt;&lt;font color=&quot;#ffffff&quot;&gt;Office PPTX&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FDM2gDi0TS2Ep80jjkoO-4" value="&lt;strong style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a style=&quot;color: rgb(0, 82, 204); text-decoration-line: none;&quot; rel=&quot;nofollow&quot; class=&quot;external-link&quot; href=&quot;https://zh.wikipedia.org/wiki/Office_Open_XML&quot;&gt;Office Open XML&lt;/a&gt;&lt;/strong&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
