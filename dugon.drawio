@@ -20,14 +20,14 @@
         <mxCell id="4D1Qdr01OEiQWQ6NJQb6-1" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="160" y="200" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t_TsomhnNtVx2ETLIiY0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-1">
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-1" target="t_TsomhnNtVx2ETLIiY0-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-35" value="Room.&lt;b style=&quot;font-size: 13px;&quot;&gt;subscribe&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-12">
           <mxGeometry x="0.6286" y="3" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint x="-3" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-1" target="t_TsomhnNtVx2ETLIiY0-3">
@@ -43,7 +43,7 @@
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400.0000000000002" y="770.0000000000002" as="targetPoint" />
+            <mxPoint x="400" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-3" value="Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -105,7 +105,104 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="585" y="440" width="70" height="70" as="geometry" />
+          <mxGeometry x="585" y="460" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="180" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-38" value="Stream.&lt;b&gt;pause&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-37">
+          <mxGeometry x="-0.0205" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-33" target="t_TsomhnNtVx2ETLIiY0-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="620" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="sourcePoint" />
+            <mxPoint x="620" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-41" value="Stream.&lt;b style=&quot;font-size: 13px;&quot;&gt;onpuase&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-40">
+          <mxGeometry x="0.0591" y="5" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-42" target="t_TsomhnNtVx2ETLIiY0-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-42" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#B3B3B3;strokeColor=#F8CECC;textShadow=0;labelBorderColor=none;shadow=0;fillStyle=dashed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="590" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="620" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-46" value="Stream.&lt;b&gt;onresume&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-45">
+          <mxGeometry x="-0.0205" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="800" as="sourcePoint" />
+            <mxPoint x="400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-48" value="Stream.&lt;b&gt;close&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-47">
+          <mxGeometry x="-0.0205" y="4" relative="1" as="geometry">
+            <mxPoint x="3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="680" as="sourcePoint" />
+            <mxPoint x="400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-51" value="Stream.&lt;b&gt;resume&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-50">
+          <mxGeometry x="-0.0205" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-53" target="t_TsomhnNtVx2ETLIiY0-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-53" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="585" y="710" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="800" as="sourcePoint" />
+            <mxPoint x="620" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-55" value="Stream.&lt;b&gt;close&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-54">
+          <mxGeometry x="-0.0205" y="4" relative="1" as="geometry">
+            <mxPoint x="3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-57" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#1A1A1A;strokeColor=#808080;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="585" y="850" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
