@@ -201,8 +201,8 @@
             <mxPoint x="3" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_TsomhnNtVx2ETLIiY0-57" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#1A1A1A;strokeColor=#808080;fillStyle=cross-hatch;" vertex="1" parent="1">
-          <mxGeometry x="585" y="850" width="70" height="70" as="geometry" />
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-57" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#1A1A1A;strokeColor=#808080;fillStyle=cross-hatch;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="840" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
