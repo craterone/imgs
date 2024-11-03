@@ -22,7 +22,12 @@
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="410" as="targetPoint" />
+            <mxPoint x="620" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-35" value="Room.&lt;b style=&quot;font-size: 13px;&quot;&gt;subscribe&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-12">
+          <mxGeometry x="0.6286" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-1" target="t_TsomhnNtVx2ETLIiY0-3">
@@ -46,24 +51,29 @@
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t_TsomhnNtVx2ETLIiY0-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400.0000000000002" y="410" as="targetPoint" />
+            <mxPoint x="400" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_TsomhnNtVx2ETLIiY0-21" value="Room.publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-20">
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-21" value="Room.&lt;b&gt;publish&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-20">
           <mxGeometry x="-0.1511" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-8" value="&lt;b&gt;Stream&lt;/b&gt;(local)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="400" width="110" height="20" as="geometry" />
+          <mxGeometry x="125" y="370" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="130" y="300" width="100" height="100" as="geometry" />
+          <mxGeometry x="145" y="300" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="620" y="410" as="targetPoint" />
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="620" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-34" value="User.&lt;b&gt;onstream&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-22">
+          <mxGeometry x="0.1045" y="4" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_TsomhnNtVx2ETLIiY0-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -72,7 +82,7 @@
             <mxPoint x="180" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_TsomhnNtVx2ETLIiY0-24" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Room.&lt;b style=&quot;font-size: 13px;&quot;&gt;onuser&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;u&gt;Bob&lt;/u&gt;&lt;/i&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp;&lt;/font&gt;in&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-23">
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-24" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Room.&lt;b style=&quot;font-size: 13px;&quot;&gt;onuser&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;u&gt;Bob&lt;/u&gt;&lt;/i&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp;&lt;/font&gt;in&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-23">
           <mxGeometry x="0.1455" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -89,10 +99,13 @@
             <mxPoint x="620" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_TsomhnNtVx2ETLIiY0-30" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Room.&lt;b&gt;onuser&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;i style=&quot;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Alice&lt;/font&gt;&lt;/u&gt;&lt;/i&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp;&lt;/font&gt;in&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-27">
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-30" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Room.&lt;b&gt;onuser&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;i style=&quot;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Alice&lt;/font&gt;&lt;/u&gt;&lt;/i&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp;&lt;/font&gt;in&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;" vertex="1" connectable="0" parent="t_TsomhnNtVx2ETLIiY0-27">
           <mxGeometry x="0.0818" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t_TsomhnNtVx2ETLIiY0-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="585" y="440" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
