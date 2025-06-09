@@ -79,7 +79,7 @@
             <mxPoint x="180" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kl-N0MjksFBT99BRAnpc-35" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;RTC信令，房间&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kl-N0MjksFBT99BRAnpc-22" vertex="1" connectable="0">
+        <mxCell id="kl-N0MjksFBT99BRAnpc-35" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;RTC服务器，房间&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kl-N0MjksFBT99BRAnpc-22" vertex="1" connectable="0">
           <mxGeometry x="0.045" y="-3" relative="1" as="geometry">
             <mxPoint x="-51" y="3" as="offset" />
           </mxGeometry>
