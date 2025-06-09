@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4" pages="3">
   <diagram name="rtsp-&gt;rtc" id="NRCTbS9BeuZ0_GTd9Irn">
     <mxGraphModel dx="1693" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,6 +222,68 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AKYa9nVtWMQZeyFi7Nym" name="rtc-&gt;rtsp">
+    <mxGraphModel dx="1693" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDZJnsiEiVK-m3gr9p2p-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-1" value="云后台（录制）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-2" value="云后台（RTC）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-3" value="RTC服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDZJnsiEiVK-m3gr9p2p-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-4" value="ZLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tDZJnsiEiVK-m3gr9p2p-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="198" as="sourcePoint" />
+            <mxPoint x="660" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-7" value="开始录制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tDZJnsiEiVK-m3gr9p2p-6">
+          <mxGeometry x="-0.0423" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.5" y="770" as="targetPoint" />
+            <mxPoint x="459.5" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="770" as="targetPoint" />
+            <mxPoint x="659.5" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-11" value="Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDZJnsiEiVK-m3gr9p2p-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1059.5" y="770" as="targetPoint" />
+            <mxPoint x="1059.5" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3_nlOANGWeXXFRvhCJQP" name="fake-rtsp">
     <mxGraphModel dx="1693" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
